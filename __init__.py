@@ -5,7 +5,7 @@ from .utils import auth_role as auth_role
 from .utils import validator as validator
 from .service_result import handle_result as handle_result
 from .exceptions import AppException as AppException
-from .instance import initialize_instance as init_app
+from .instance import FlaskEasy as FlaskEasy
 
 __all__ = [
     "Result",
@@ -13,7 +13,7 @@ __all__ = [
     "validator",
     "handle_result",
     "AppException",
-    "init_app",
+    "FlaskEasy",
     "Notifier",
     "NotificationHandler",
 ]
